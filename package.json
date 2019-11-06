@@ -11,7 +11,8 @@
   },
   "dependencies": {
     "element-ui": "^2.4.5",
-    "vue": "^2.6.10"
+    "vue": "^2.6.10",
+    "vue-resize-directive": "^1.2.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-eslint": "^4.0.0",

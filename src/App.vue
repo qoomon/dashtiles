@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <el-button>el-button</el-button>
+    <div v-resize="onResize" style="width: 50%; height: 200px; background: green;"/>
   </div>
 </template>
 
@@ -8,6 +9,11 @@
 export default {
   name: 'app',
   components: {
+  },
+  methods: {
+    onResize (event) {
+      console.log('resize', event)
+    }
   }
 }
 </script>
